@@ -1,0 +1,124 @@
+\documentclass[%
+ reprint,
+%superscriptaddress,
+%groupedaddress,
+%unsortedaddress,
+%runinaddress,
+%frontmatterverbose, 
+%preprint,
+%preprintnumbers,
+%nofootinbib,
+%nobibnotes,
+%bibnotes,
+ amsmath,amssymb,
+ aps,
+%href,
+%colorlinks,
+%pra,
+%prb,
+%rmp,
+%prstab,
+%prstper,
+%floatfix,
+]{revtex4-2}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{polyglossia}
+\usepackage{tempora}
+\setdefaultlanguage[indentfirst=true,forceheadingpunctuation=false]{russian}
+\setotherlanguages{english}
+
+\usepackage[toc]{glossaries}
+\makeglossaries
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+
+\IfFontExistsTF{Times New Roman}
+{\setmainfont{Times New Roman}
+\newfontfamily\cyrillicfont{Times New Roman}[Script=Cyrillic]}
+{\setmainfont[Script=Cyrillic]{FreeSerif}}
+
+\IfFontExistsTF{Courier New}
+{\setmonofont{Courier New}
+\newfontfamily\cyrillicfonttt{Courier New}[Script=Cyrillic]}
+{\setmonofont[Script=Cyrillic]{FreeMono}}
+
+\IfFontExistsTF{Arial}
+{\setsansfont{Arial}
+\newfontfamily\cyrillicfontsf{Arial}[Script=Cyrillic]}
+{\setsansfont[Script=Cyrillic]{FreeSans}}
+
+%Доп пакеты для оформления
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{icomma} %Интеллектуальная запятая в десятичной записи числа
+%\usepackage{longtable}
+
+% Начало документа
+
+\begin{document}
+
+\preprint{APS/123-QED}
+
+\title{
+    Атомистическое и континуальное моделирование \\
+    адиабатического расширения вещества с потенциалом Леннарда-Джонса
+}% Force line breaks with \\
+
+\author{Левашов Павел Ремирович}
+\affiliation{
+ Объединённый институт высоких температур РАН
+}%
+
+\author{Фолифоров Даниил Сергеевич}
+\affiliation{%
+ Московский физико-технический институт\\
+ foliforov.ds@phystech.edu
+}%
+
+\date{\today}% It is always \today, today,
+             %  but any date may be explicitly specified
+
+\begin{abstract}
+An article usually includes an abstract, a concise summary of the work
+covered at length in the main body of the article. 
+\begin{description}
+\item[Usage]
+Secondary publications and information retrieval purposes.
+\item[Structure]
+You may use the \texttt{description} environment to structure your abstract;
+use the optional argument of the \verb+\item+ command to give the category of each item. 
+\end{description}
+\end{abstract}
+
+%\keywords{Suggested keywords}%Use show keys class option if keyword
+                              %display desired
+
+\maketitle
+
+% Раздел 1: Введение
+\input{1}
+
+% Раздел 2: Методика эксперимента
+\input{2}
+
+% Раздел 3: Тестовый расчёт изоэнтропы разгрузки
+\input{3}
+
+% Раздел 4: Моделирование распада произвольного разрыва
+\input{4}
+
+% Список сокращений
+\include{glossary}
+\printglossaries
+\bibliographystyle{unsrtnat}
+\bibliography{simpl}
+%\printbibliography[heading=bibintoc]
+%\bibliographystyle{aspb1}
+%\addbibresource{thesis.bib}
+%\addbibresource{thesis}
+
+\end{document}

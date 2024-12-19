@@ -1,0 +1,42 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem["Ahmed and Sadus("2009")]{Ahmed:JCP:2009}
+Alauddin "Ahmed and Richard~J" Sadus.
+\newblock "solid-liquid equilibria and triple points of n-6 lennard-jones fluids".
+\newblock \emph{"The Journal of chemical physics"}, "131"\penalty0 ("17"):\penalty0 "174504", "2009".
+
+\bibitem[Heier et~al.(2018)Heier, Stephan, Liu, Chapman, Hasse, and Langenbach]{Heier:MP:2018}
+Michaela Heier, Simon Stephan, Jinlu Liu, Walter~G Chapman, Hans Hasse, and Kai Langenbach.
+\newblock Equation of state for the lennard-jones truncated and shifted fluid with a cut-off radius of 2.5 $\sigma$ based on perturbation theory and its applications to interfacial thermodynamics.
+\newblock \emph{Molecular Physics}, 116\penalty0 (15-16):\penalty0 2083--2094, 2018.
+
+\bibitem[Watanabe et~al.(2012)Watanabe, Ito, and Hu]{Watanabe:JCP:2012}
+Hiroshi Watanabe, Nobuyasu Ito, and Chin-Kun Hu.
+\newblock Phase diagram and universality of the lennard-jones gas-liquid system.
+\newblock \emph{The Journal of chemical physics}, 136\penalty0 (20):\penalty0 204102, 2012.
+
+\bibitem[Adidharma and Tan(2016)]{Adidharma:JCP:2016}
+Hertanto Adidharma and Sugata~P. Tan.
+\newblock Accurate monte carlo simulations on fcc and hcp lennard-jones solids at very low temperatures and high reduced densities up to 1.30.
+\newblock \emph{The Journal of Chemical Physics}, 145\penalty0 (1):\penalty0 014503, 2016.
+\newblock \doi{10.1063/1.4955061}.
+
+\bibitem[Thol et~al.(2016)Thol, Rutkai, Köster, Lustig, Span, and Vrabec]{THOL:JPCRF:2016}
+Monika Thol, Gabor Rutkai, Andreas Köster, Rolf Lustig, Roland Span, and Jadran Vrabec.
+\newblock Equation of state for the lennard-jones fluid.
+\newblock \emph{Journal of Physical and Chemical Reference Data}, 45\penalty0 (2):\penalty0 023101, 2016.
+\newblock \doi{10.1063/1.4945000}.
+
+\bibitem[Baidakov and Protsenko(2006)]{Baidakov:JETP:2006}
+V.~G. Baidakov and S.~P Protsenko.
+\newblock Metastable extensions of phase equilibrium lines and singular points of simple substance.
+\newblock \emph{Journal of Experimental and Theoretical Physics}, 103\penalty0 (6):\penalty0 876--886, 2006.
+\newblock ISSN 1090-6509.
+\newblock \doi{https://doi.org/10.1134/S1063776106120053}.
+
+\end{thebibliography}

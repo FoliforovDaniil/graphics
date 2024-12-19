@@ -1,0 +1,84 @@
+\glsdefs@newdocentry{lj}%
+{%
+name={\acronymfont {\glsentryshort {lj}}},%
+sort={ЛД},%
+type={main},%
+first={ЛД},%
+firstplural={ЛДs},%
+text={ЛД},%
+plural={ЛДs},%
+description={Леннарда-Джонса},%
+descriptionplural={Леннарда-Джонса},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Леннарда-Джонса},%
+longplural={Леннарда-Джонсаs},%
+short={ЛД},%
+shortplural={ЛДs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{fcc}%
+{%
+name={\acronymfont {\glsentryshort {fcc}}},%
+sort={ГЦК},%
+type={main},%
+first={ГЦК},%
+firstplural={ГЦКs},%
+text={ГЦК},%
+plural={ГЦКs},%
+description={Гранецентрированная кубическая},%
+descriptionplural={Гранецентрированная кубическая},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Гранецентрированная кубическая},%
+longplural={Гранецентрированная кубическаяs},%
+short={ГЦК},%
+shortplural={ГЦКs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{hcp}%
+{%
+name={\acronymfont {\glsentryshort {hcp}}},%
+sort={ГПУ},%
+type={main},%
+first={ГПУ},%
+firstplural={ГПУs},%
+text={ГПУ},%
+plural={ГПУs},%
+description={Гексагональная плотноупакованная},%
+descriptionplural={Гексагональная плотноупакованная},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Гексагональная плотноупакованная},%
+longplural={Гексагональная плотноупакованнаяs},%
+short={ГПУ},%
+shortplural={ГПУs},%
+counter={page},%
+parent={},%
+%
+}%
+
